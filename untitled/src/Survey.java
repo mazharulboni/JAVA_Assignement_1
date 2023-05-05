@@ -6,16 +6,16 @@ public class Survey {
         results();
     }
 
-    public static void Responses() {System.out.println("Responses: " +
-            "Very satisfied\n" +
-            "Satisfied\n" +
-            "Neutral\n" +
-            "Dissatisfied\n" +
-            "Very dissatisfied");}
-    public static void results() {System.out.println("Results: " +
-            "Very satisfied: 45%\n" +
-            "Satisfied: 35%\n" +
-            "Neutral: 10%\n" +
-            "Dissatisfied: 8%\n" +
-            "Very dissatisfied: 2%");}
+    public static void Responses() {System.out.println("Responses: \n" +
+            "1: Very satisfied\n" +
+            "2: Satisfied\n" +
+            "3: Neutral\n" +
+            "4: Dissatisfied\n" +
+            "5: Very dissatisfied\n");}
+    public static void results() {System.out.println("Results: \n" +
+            "1: Very satisfied: 45%\n" +
+            "2: Satisfied: 35%\n" +
+            "3: Neutral: 10%\n" +
+            "4: Dissatisfied: 8%\n" +
+            "5: Very dissatisfied: 2%");}
 }
